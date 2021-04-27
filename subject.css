@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+  }
+#About{
+    font-style: unset;
+    font-size: 18px;
+    border-bottom: purple;
+
+
+}
+ol{
+    font-size: 18px;
+}
+h1,h2{
+    color: green;
+}
+h2{
+    text-decoration: underline;
+
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  height: 300px; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  font-size: 21px;
+}
+
+.Quote{
+    padding-top: 50px;
+    color:black;
+    font-style: italic;
+
+}
+
+.row{
+    color:grey;
+    font-size: 19px;
+    padding-bottom: 50px;
+}
+h3{
+    color: black;
+    font-style: italic;
+    padding-top: 30px;
+    font-size: 40px;
+}
+hr.line{
+    border:6px solid purple;
+}
+h1{
+    text-align: center;
+    text-decoration-line: overline;
+    text-decoration-line: underline;
+}
+a{
+    font-size: 70px;
+}
